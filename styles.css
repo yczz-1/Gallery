@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Set background color to black */
+    color: white; /* Set text color to white for better contrast */
+}
+
+header {
+    background-color: #333;
+    color: #ffcc00;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #ffcc00; /* Set text color for h2 elements */
+    margin-top: 0;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create a grid with 2 columns */
+    gap: 5px; /* Reduce the gap between photos */
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure the image covers the container */
+    border: 1px solid #ccc; /* Reduce border size */
+    border-radius: 4px; /* Reduce border radius */
+    transition: transform 0.2s;
+}
+
+.photo-container img:hover {
+    transform: scale(1.1); /* Add a hover effect to enlarge the photo */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.index-page {
+    background-color: #000000; 
+}
+
+.gallery-page {
+    background-color: #000000; 
+}
+
+.shadow-page {
+    background-color: #000000; 
+}
+
+.citylight-page {
+    background-color: #000000; 
+}
+
+.booth1-page {
+    background-color: #000000;
+}
+
+.booth2-page {
+    background-color: #000000; 
+}
+
+.deer-page {
+    background-color: #000000; 
+}
+
+.temple-page {
+    background-color: #000000; 
+}
